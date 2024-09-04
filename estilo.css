@@ -589,7 +589,7 @@ html {
 .contacto .col input,
 .contacto .col textarea {
   display: block;
-  width: 100%;
+  width: 600px;
   padding: 18px;
   border: none;
   margin-bottom: 20px;
@@ -631,7 +631,7 @@ html {
   top: 40%;
   background-color: #013440;
   padding: 20px;
-  max-swidth: 350px;
+  max-inline-size: 350px;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -751,5 +751,14 @@ footer .arriba {
   }
   .contacto .fila .col {
     width: 100%;
+  }
+  .contacto .col input,
+  .contacto .col textarea {
+    width: 250px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .contacto button {
+    padding: 20px 32px;
   }
 }
