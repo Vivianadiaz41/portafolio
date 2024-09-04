@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Viviana Díaz</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/hero.png" alt="">
+            </div>
+            <h1>Viviana Díaz </h1>
+            <h2>Diseño web - Curaduria de contenido-UI/UX</h2>
+            <div class="redes">
+                <a href="https://www.facebook.com/oghamdyc"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://github.com/Vivianadiaz41"><i class="fa-brands fa-github"></i></github></a>
+                <a href="https://www.behance.net/gavivi419a6e"><i class="fa-brands fa-behance"></i></a>
+                <a href="https://www.linkedin.com/in/vivianadiazwebdesign/"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://www.instagram.com/ogham.d/"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, me llamo Viviana.</span> diseñadora web front-end, apasionada por
+                crear experiencias digitales que combinan atractivo visual y funcionalidad. A lo largo de mi carrera, he
+                desarrollado habilidades en arquitectura de información y UX research, lo que me permite diseñar
+                soluciones bien estructuradas y centradas en el usuario.
+
+                Mi experiencia en el área de educación me ha enseñado a adaptar la información según el nivel de
+                enseñanza de cada persona, optimizando contenidos para satisfacer las necesidades de los usuarios de
+                manera efectiva.
+
+                Lo que me distingue es mi capacidad para establecer relaciones de camaradería con las personas con las
+                que trabajo, interpretando sus necesidades para lograr un trabajo colaborativo y placentero. Siempre
+                mantengo el enfoque en el usuario final, escuchando activamente y desarrollando productos que se alinean
+                con sus expectativas y requerimientos.
+
+                Hace tres años, decidí emprender mi propio proyecto de diseño web,diseño para redes sociales y community
+                management, lo que me ha permitido aplicar mi creatividad e impulso en diversos entornos laborales,
+                siempre con el objetivo de alcanzar el éxito en cada proyecto.
+
+
+            </p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Teléfono</strong>
+                            +543516874272
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            vivianadiazweb@gmail.com
+
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+
+                        <div class="interes">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>DEPORTE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>LIBROS</span>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+            <a href="https://docs.google.com/document/d/1moVKCUBwjsy30DefbbaelmX04G306b9Z/edit?usp=sharing&ouid=101488068273075787447&rtpof=true&sd=true"
+                target="_blank">
+                <button>
+                    Descargar CV <i class="fa-solid fa-download"></i>
+                    <span class="overlay"></span>
+                </button></a>
+
+
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Habilidades Técnica</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>89%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Photoshop e ilustrator</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Wordpress</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>81%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Figma</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>55%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Habilidades Blandas</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Proyect Management</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>94%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Técnica Superior en Desarrollo Web y Apps Móviles
+                        </h4>
+                        <span class="casa">Instituto Politécnico Superior Córdoba</span>
+                        <span class="fecha">2020- 2020</span>
+                        <p>- Diseñar, construir, programar e implementar aplicaciones para la Web con criterios de
+                            calidad y seguridad;
+                            - Integrar las técnicas de trabajo, la información, la producción de códigos y reutilización
+                            de códigos existentes;
+                            - Desarrollar sitios web dinámicos con interacción con base de datos en servidores, y
+                            consumir servicios;
+                            - Producir documentación técnica de los procesos y productos desarrollados de acuerdo con
+                            los requerimientos funcionales y técnicos recibidos;
+                            - Planificar el proyecto en un contexto de desarrollo en equipo
+                            - Desarrollar aplicaciones móviles multiplataforma.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Bibliotecología y documentación</h4>
+                        <span class="casa">Universidad Nacional de Córdoba</span>
+                        <span class="fecha">2010 - 2015</span>
+                        <p>Planificar, organizar, dirigir y administrar los servicios bibliotecarios y documentales.
+                            Relevar, seleccionar, analizar, catalogar, clasificar, indizar, resumir, analizar y difundir
+                            la información bibliográfica y documentaria utilizando sistemas manuales o automatizados.
+                            Capacitar y asesorar a los usuarios para el mejor uso de la información bibliográfica y
+                            documentaria.
+                            Planificar sistemas de información bibliográfica y documentación nacionales, regionales y
+                            sectoriales.
+                            Organizar servicios y recursos de información para facilitar los procesos de toma de
+                            decisiones y para el apoyo a la docencia e investigación.
+                            Planificar, realizar y asesorar investigaciones en el área de información. </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item der">
+                        <h4> Diseñadora Web y Gráfica-Curaduría de contenido</h4>
+                        <span class="casa">OGHAM DISEÑO</span>
+                        <span class="fecha">2021 - Presente</span>
+                        <p>Emprendimiento propio
+                            Diseño y desarrollo de sitios web dinámicos y responsivos utilizando HTML, CSS, JavaScript y
+                            WordPress.
+                            Creación de material gráfico y packaging publicitario para campañas digitales y físicas.
+                            Diseño de identidades visuales completas para marcas, mejorando su presencia digital y su
+                            reconocimiento de marca.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Bibliotecaria y Diseñadora de Recursos Digitales</h4>
+                        <span class="casa">Pío X Nivel Superior — Córdoba, Argentina
+                        </span>
+                        <span class="fecha">2013 - 2024</span>
+                        <p>Gestión integral de bases de datos y sistemas de información, optimizando la organización y
+                            accesibilidad de los recursos.
+                            Realización de investigaciones en UX para mejorar la experiencia de usuario en plataformas
+                            digitales educativas.
+                            Diseño y desarrollo de entornos virtuales de aprendizaje, promoviendo el uso de herramientas
+                            digitales en la educación.
+                            Gestión de redes sociales y creación de contenido gráfico, aumentando la interacción y
+                            visibilidad de la institución.
+                        </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4> Bibliotecaria</h4>
+                        <span class="casa">Instituto Nuestra Señora "Monjas Azules"</span>
+                        <span class="fecha">2019 - 2020</span>
+                        <p>Emprendimiento propio
+                            Diseño y desarrollo de sitios web dinámicos y responsivos utilizando HTML, CSS, JavaScript y
+                            WordPress.
+                            Creación de material gráfico y packaging publicitario para campañas digitales y físicas.
+                            Diseño de identidades visuales completas para marcas, mejorando su presencia digital y su
+                            reconocimiento de marca.
+
+                        </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto"><a href="https://www.behance.net/gavivi419a6e" target="_blank">
+                        <img src="img/707shots_so.png" alt=""></a>
+
+                    <div class="overlay">
+                        <h3>Diseño web</h3>
+                        <p> E-commerce</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/linkedin.png" alt="">
+                    <div class="overlay">
+                        <h3>Carrusel para linkedin</h3>
+                        <p>Diseño + Contenido</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/107_1x_shots_so.png" alt="">
+                    <div class="overlay">
+                        <h3>Diseño web</h3>
+                        <p>Landing page</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/hoja membretada.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Corporativo</h3>
+                        <p>Hoja membretada</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/EFEMRIDES.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño para redes sociales</h3>
+                        <p>Curaduria de contenido</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/Bibliotecas.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño para redes sociales</h3>
+                        <p>Diseño+ contenido</p>
+                    </div>
+
+                </div>
+                <div class="proyecto">
+                    <img src="img/OGHAM.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño para redes sociales</h3>
+                        <p>Diseño + Curaduria de contenido</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/Mockup wabi.png" alt="">
+                    <div class="overlay">
+                        <h3>Diseño e identidad de marca</h3>
+                        <p>Etiqueta logo</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/landingeduc.png" alt="">
+                    <div class="overlay">
+                        <h3>Diseño web</h3>
+                        <p>Landing page</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/web2.png" alt="">
+                    <div class="overlay">
+                        <h3>Diseño web</h3>
+                        <p>Wordpress</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/mockup lourdes.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño web</h3>
+                        <p>E-commerce</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/brunch.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <form action="https://formsubmit.co/vivianadiazweb@gmail.com" method="POST" />
+                </form>
+                <div class="col">
+                    <input type="text" name="name" placeholder="Tú Nombre">
+                    <input type="text" name="phone" placeholder="Número telefónico">
+                    <input type="text" name="email" placeholder="Dirección de correo">
+                    <input type="text" name="subject" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!-- Mapa -->
+                <div class="col">
+                    <img src="img/ubicacion.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Córdoba - Argentina
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Télefono: +54 3516874272
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: vivianadiazweb@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.facebook.com/oghamdyc"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://github.com/Vivianadiaz41"><i class="fa-brands fa-github"></i></github></a>
+            <a href="https://www.behance.net/gavivi419a6e"><i class="fa-brands fa-behance"></i></a>
+            <a href="https://www.linkedin.com/in/vivianadiazwebdesign/"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://www.instagram.com/ogham.d/"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
