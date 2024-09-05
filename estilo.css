@@ -536,6 +536,10 @@ html {
   width: 100%;
   display: block;
 }
+.overlay a {
+  text-decoration: none;
+  color: #fff;
+}
 .portfolio .galeria .proyecto .overlay {
   position: absolute;
   top: 0;
